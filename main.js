@@ -89,7 +89,7 @@ contactForm.addEventListener('submit',(e)=>{
         Description : desc.value
     }
     console.log(formData)
-    let url = "https://kaydakanoon.onrender.com"
+    let url = "https://kaydakanoon-jtfc.onrender.com"
     // let url = "http://localhost:5000"
     fetch(url, {
     method: 'POST',
